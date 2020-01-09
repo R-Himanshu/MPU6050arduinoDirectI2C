@@ -42,15 +42,15 @@
  *   G-FORCE = accelX/G_FORCE_SEL;
  *
  *-------------GYRO SELECT------------------------------------------------------------------------------------------------------------------------
- *   WE CAN SELECT THE RANGE OF GYRO FROM +-250°/s, +-500°/s, +-1000°/s to +-2000°/s USING THE 1C REGISTER AND ALTERING THE GYRO_CONFIG REGISTER (4.4 IN THE DATASHEET)
- *   Wire.write(0b00000000); //Setting the accel to +-250°/s
- *   Wire.write(0b00001000); //Setting the accel to +-500°/s
- *   Wire.write(0b00010000); //Setting the accel to +-1000°/s
- *   Wire.write(0b00011000); //Setting the accel to +-2000°/s
+ *   WE CAN SELECT THE RANGE OF GYRO FROM +-250Â°/s, +-500Â°/s, +-1000Â°/s to +-2000Â°/s USING THE 1C REGISTER AND ALTERING THE GYRO_CONFIG REGISTER (4.4 IN THE DATASHEET)
+ *   Wire.write(0b00000000); //Setting the accel to +-250Â°/s
+ *   Wire.write(0b00001000); //Setting the accel to +-500Â°/s
+ *   Wire.write(0b00010000); //Setting the accel to +-1000Â°/s
+ *   Wire.write(0b00011000); //Setting the accel to +-2000Â°/s
  *-------------------------------------------------------------------------------------------------------------------------------------   
  *   LINK FOR THE DATASHEET: https://www.invensense.com/wp-content/uploads/2015/02/MPU-6000-Register-Map1.pdf
  *   
- *   DEVELOPED BY:MR. HIMANSHU RANGADHOL 
+ *   DEVELOPED BY:HIMANSHU RANGADHOL 
  *   PREVIOUS VERSION: VERSION V.1.0
  *   VERSION: VERSION V.1.1
  *   DATE: 28-06-2018
